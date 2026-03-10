@@ -7,12 +7,12 @@ app.get("/", (req, res) => {
   res.send("This is Home Page");
 })
 
-app.get("/product", (req, res) => {
-  res.send("This is Product Page");
+app.get("/testing", (req, res) => {
+  res.send("This is testing Page");
 })
 
-app.get("/order", (req, res) => {
-  res.send("This is order Page");
+app.get("/health", (req, res) => {
+  res.send("This is health Page");
 })
 
 app.listen(PORT, () => {
