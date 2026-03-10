@@ -20,7 +20,7 @@ app.get("/error", (req, res) => {
 });
 
 app.get("/ec2", (req, res) => {
-	res.send("This is EC2 Page");
+	res.send("This is EC2 Page updated again");
 });
 
 app.listen(PORT, () => {
