@@ -19,6 +19,10 @@ app.get("/error", (req, res) => {
 	res.status(500).send("This is an error");
 });
 
+app.get("/ec2", (req, res) => {
+	res.send("This is EC2 Page");
+});
+
 app.listen(PORT, () => {
 	console.log(`Server is listening on port ${PORT}`);
 });
